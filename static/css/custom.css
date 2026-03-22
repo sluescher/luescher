@@ -1,0 +1,210 @@
+/* Set base font size */
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+/* Source Serif 4 for body text */
+body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    background-image: url('/images/manuscriptbackground.jpg');
+    /* The image is from: Berlin, Staatsbibliothek, MS Sprenger 122, p.603 https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN1898337403&PHYSID=PHYS_0611&view=picture-single&DMDID=DMDLOG_0001 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+}
+.headlinks {
+    padding-top: 25px;
+    font-size: 2rem !important;
+}
+
+.headlinks a {
+    font-family: 'Londrina Sketch', cursive;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: black !important;
+    font-size: 2rem !important;
+}
+/* Header menu styling */
+.headlinks a {
+    font-family: 'Londrina Sketch', cursive;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: black !important;
+}
+
+/* Different colors for each nav link on hover */
+.headlinks .home:hover {
+    color: #ca3a7e !important;
+    text-transform: uppercase;
+}
+
+.headlinks .about:hover {
+    color: #ec6c2c !important;
+    text-transform: uppercase;
+}
+
+.headlinks .projects:hover {
+    color: #599d74 !important;
+    text-transform: uppercase;
+}
+
+.headlinks .teaching:hover {
+    color: #745fe8 !important;
+    text-transform: uppercase;
+}
+
+.headlinks .paleography:hover {
+    color: #6d8ef7 !important;
+    text-transform: uppercase;
+}
+
+/* Active page highlighting */
+body#home #menu .home {
+    color: #ca3a7e !important;
+    text-transform: uppercase;
+}
+
+body#about #menu .about {
+    color: #ec6c2c !important;
+    text-transform: uppercase;
+}
+
+body#projects #menu .projects {
+    color: #599d74 !important;
+    text-transform: uppercase;
+}
+
+body#teaching #menu .teaching {
+    color: #745fe8 !important;
+    text-transform: uppercase;
+}
+
+body#paleography #menu .paleography {
+    color: #6d8ef7 !important;
+    text-transform: uppercase;
+}
+
+/* Fraunces for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-optical-sizing: auto;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2, h3 {
+    font-weight: 500;
+}
+
+/* Body paragraphs */
+p {
+    font-weight: 400;
+}
+
+a {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color:#000;
+}
+
+/* Only content links - more specific selector */
+body#home div.mw7 a {
+    color: #ca3a7e;
+}
+
+body#home div.mw7 a:hover {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+body#about div.mw7 a {
+    color: #ec6c2c;
+}
+
+body#about div.mw7 a:hover {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+body#projects div.mw7 a {
+    color: #599d74;
+}
+
+body#projects div.mw7 a:hover {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+body#teaching div.mw7 a {
+    color: #745fe8;
+}
+
+body#teaching div.mw7 a:hover {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+body#paleography div.mw7 a {
+    color: #6d8ef7;
+}
+
+body#paleography div.mw7 a:hover {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/*FONTS*/
+/* Amiri for Arabic text */
+[lang="ar"], .arabic {
+    font-family: 'Amiri', serif;
+}
+
+.sketch {
+    font-family: 'Londrina Sketch', cursive;
+}
+
+
+.separator {
+    display: block;
+    margin: 1rem auto;
+    width: 100px;
+    height: auto;
+}
+
+
+.pink {
+    color: #ca3a7e;
+}
+
+
+h1 { font-size: 1.25rem;font-weight: 500; }
+h2 { font-size: 1.125rem;font-weight: 400; }
+h3 { font-size: 1rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; font-weight: 200; font-style: italic;}
+h6 { font-size: .875rem; }
+p { font-size: 1rem; }
+
+/* Same spacing between ALL elements */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+
+.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
